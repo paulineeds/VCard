@@ -1,0 +1,72 @@
+body {
+  background-color: #E5E5E5;
+  font-family: 'Titillium Web', sans-serif;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
+#container {
+  display: flex;
+  background-color: #454851;
+  width: 900px;
+  height: 504.283px;
+  color: #FCA311;
+  border-radius: 2%;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+  margin: 0 auto;
+}
+
+
+div.vierkantA {
+  flex:1;
+}
+
+div.vierkantB {
+  flex:1;
+}
+
+div.symbool {
+  background-color: #B8D3D1;
+  height:20%;
+  font-size: 300%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+img {
+  width: 450px;
+  position: absolute;
+  border-top-left-radius: 2%;
+  border-bottom-left-radius: 2%;
+}
+
+h1 {
+  position: relative;
+  padding-left: 5%;
+}
+
+h2 {
+  padding: 5%;
+}
+
+h3 {
+  padding: 2%;
+  margin-left: 5%;
+  font-size: 20px;
+}
+
+ul {
+  list-style: none;
+  padding: 2%;
+  margin:8%;
+  letter-spacing: 5px;
+  line-height: 25px;
+}
+
+i {
+  padding-right: 10%;
+}
+
+a {
+  color: #FCA311;
+}
