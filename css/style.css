@@ -2,18 +2,23 @@ body {
   background-color: #E5E5E5;
   font-family: 'Titillium Web', sans-serif;
   font-family: 'ZCOOL QingKe HuangYou', cursive;
+
 }
+/*---  position ------------------------------------------------------------------*/
+
+
 #container {
+
   display: flex;
-  background-color: #454851;
   width: 900px;
   height: 504.283px;
   color: #FCA311;
   border-radius: 2%;
   box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
   margin: 0 auto;
+  margin-top: 110px;
+  background-color: #454851;
 }
-
 
 div.vierkantA {
   flex:1;
@@ -32,14 +37,14 @@ div.symbool {
   justify-content: space-around;
   align-items: center;
 }
-
+/*---- img -------------------------------------------------------------------------*/
 img {
   width: 450px;
   position: absolute;
   border-top-left-radius: 2%;
   border-bottom-left-radius: 2%;
 }
-
+/*--- titels ---------------------------------------------------------------------------*/
 h1 {
   position: relative;
   padding-left: 5%;
@@ -65,6 +70,10 @@ ul {
 
 i {
   padding-right: 10%;
+}
+
+i:hover {
+  color: #454851;
 }
 
 a {
