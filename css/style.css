@@ -1,36 +1,43 @@
-body {
+ body {
   background-color: #E5E5E5;
   font-family: 'Titillium Web', sans-serif;
   font-family: 'ZCOOL QingKe HuangYou', cursive;
+}
 
+
+
+html {
+  margin-right: 0px;
 }
 /*---  position ------------------------------------------------------------------*/
 
 
 #container {
-
   display: flex;
   width: 900px;
   height: 504.283px;
   color: #FCA311;
-  border-radius: 2%;
-  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+  border-top-left-radius: 2%;
+  border-bottom-left-radius: 2%;
   margin: 0 auto;
   margin-top: 110px;
-  background-color: #454851;
 }
 
-div.vierkantA {
-  flex:1;
-}
 
 div.vierkantB {
   flex:1;
+  background-color: #454851;
+  width: 450px;
+  border-top-right-radius: 2%;
+  border-bottom-right-radius: 2%;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+  background-clip: padding-box;
 }
 
 div.symbool {
   background-color: #B8D3D1;
   height:20%;
+  width: 450px;
   font-size: 300%;
   display: flex;
   flex-direction: row;
@@ -40,14 +47,15 @@ div.symbool {
 /*---- img -------------------------------------------------------------------------*/
 img {
   width: 450px;
-  position: absolute;
   border-top-left-radius: 2%;
   border-bottom-left-radius: 2%;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25)
 }
 /*--- titels ---------------------------------------------------------------------------*/
+
 h1 {
-  position: relative;
-  padding-left: 5%;
+  color: #B8D3D1;
+  text-align: center;
 }
 
 h2 {
@@ -63,7 +71,7 @@ h3 {
 ul {
   list-style: none;
   padding: 2%;
-  margin:8%;
+  margin:10px;
   letter-spacing: 5px;
   line-height: 25px;
 }
@@ -78,4 +86,32 @@ i:hover {
 
 a {
   color: #FCA311;
+}
+
+/* GSM --------------------------------------------------------------------------------------------- */
+@media only screen and (max-width: 300px) {
+
+  #container {
+    display:flex;
+    flex-direction: column;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2% 2% 0% 0%;
+  }
+
+  .vierkantB {
+    display: block;
+    margin: auto;
+    border-radius: 0% 0% 2% 2%;
+  }
+
+
+  div.symbool {
+    border-radius: 0% 0% 2% 2%;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
+  }
 }
