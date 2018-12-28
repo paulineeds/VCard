@@ -94,6 +94,7 @@ a {
   #container {
     display:flex;
     flex-direction: column;
+    max-width: 755px;
   }
 
   img {
