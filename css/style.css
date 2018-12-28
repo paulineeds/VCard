@@ -67,6 +67,7 @@ h3 {
   padding: 2%;
   margin-left: 5%;
   font-size: 20px;
+  margin-top: -10px;
 }
 
 ul {
@@ -75,6 +76,7 @@ ul {
   margin:10px;
   letter-spacing: 5px;
   line-height: 25px;
+  margin-bottom: 20px;
 }
 
 i {
@@ -97,7 +99,6 @@ a {
   #container {
     display:flex;
     flex-direction: column;
-
   }
 
   img {
@@ -115,13 +116,12 @@ a {
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25)
   }
 
-
   div.symbool {
     border-radius: 0% 0% 2% 2%;
     box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25);
   }
-}
 
 ul {
-  margin-bottom: 25px;
+  margin-bottom: 55px;
+}
 }
