@@ -89,7 +89,7 @@ a {
 }
 
 /* GSM --------------------------------------------------------------------------------------------- */
-@media only screen and (max-width: 300px) {
+@media only screen and (max-width: 755px) {
 
   #container {
     display:flex;
