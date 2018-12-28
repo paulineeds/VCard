@@ -1,5 +1,6 @@
  body {
-  background-color: #E5E5E5;
+  /* background-color: #E5E5E5; */
+  background-image: url(../img/weave.png);
   font-family: 'Titillium Web', sans-serif;
   font-family: 'ZCOOL QingKe HuangYou', cursive;
 }
@@ -20,11 +21,11 @@ html {
   border-top-left-radius: 2%;
   border-bottom-left-radius: 2%;
   margin: 0 auto;
-  margin-top: 110px;
+  margin-top: 95px;
 }
 
 
-div.vierkantB {
+.vierkantB {
   flex:1;
   background-color: #454851;
   width: 450px;
@@ -106,12 +107,14 @@ a {
     margin-left: auto;
     margin-right: auto;
     border-radius: 2% 2% 0% 0%;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25)
   }
 
   .vierkantB {
     display: block;
     margin: auto;
     border-radius: 0% 0% 2% 2%;
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.25)
   }
 
 
