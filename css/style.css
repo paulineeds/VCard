@@ -122,6 +122,10 @@ a {
   }
 
 ul {
-  margin-bottom: 55px;
+  margin-bottom: 60px;
+}
+
+a {
+  text-decoration: none;
 }
 }
